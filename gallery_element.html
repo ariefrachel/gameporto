@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <a class="navbar-brand" href="#" style="color: #42cae2;">Game Elements</a>
+    <a class="navbar-brand" href="gallery_character.html">Character Design</a>
+    <a class="navbar-brand" href="gallery_environment.html">Game Environment</a>
+  </div>
+</nav>
+
+<!-- Gallery Content -->
+<div class="container my-5">
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 3.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 6.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 5.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 1.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 2.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 4.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 7.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 7 copy 7.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 7 copy 6.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 7 copy 5.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 7 copy 3.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 7 copy.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card mb-4">
+        <img src="assets/game elements/Game icon pack 7 copy 2.jpg" class="card-img-top" alt="..." data-toggle="modal" data-target="#exampleModal">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Gallery Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="" class="img-fluid" id="modalImage">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+    <p>&copy; 2024 Gallery</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('.card-img-top').click(function(){
+      var imgSrc = $(this).attr('src');
+      $('#modalImage').attr('src', imgSrc);
+    });
+  });
+</script>
+
+</body>
+</html>
